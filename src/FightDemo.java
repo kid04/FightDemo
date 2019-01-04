@@ -63,12 +63,14 @@ public class FightDemo {
 
 
 
-    if(t1d){return false;}else{return true;}
+    if(t1d){
+        return false;
+    } else {
+        return true;
+        }
     }
+
     public static void main(String[] args){
-
-
-
-
+        System.out.println("Misha in town!");
     }
 }
